@@ -2,8 +2,10 @@ import os
 from dotenv import load_dotenv
 from telegram.ext import Updater, CommandHandler
 
+
 def ayuda(update, context):
     update.message.reply_text("La ayuda estara disponible aqui")
+
 
 if __name__ == '__main__':
     load_dotenv()
